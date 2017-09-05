@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CSIT</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="title_activity_main2">Contact Us</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string-array name="check">
+        <item>name</item>
+        <item>cast</item>
+    </string-array>
+    <string-array name="check1">
+        <item>ramesh</item>
+        <item>pokhrel</item>
+    </string-array>
+</resources>

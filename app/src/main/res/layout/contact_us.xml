@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.csit.ramesh.csit.contact_us">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/iii"
+                    android:scaleType="fitXY"
+                    android:id="@+id/image1"
+                    android:layout_margin="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:padding="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:padding="2dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="name :"
+                            android:layout_gravity="right"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:text="Ramesh Pokharel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="2dp"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:padding="1dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:padding="2dp"
+                            android:text="address :"
+                            android:layout_gravity="right"
+                            android:gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="12sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="2dp"
+                            android:text="Gulmi"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:padding="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="Contact :"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:padding="2dp"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:text="kanxoramesh@gmail.com"
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:gravity="left"
+                            android:layout_marginTop="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="1dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+
+
+
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_below="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:padding="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:padding="2dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="name :"
+                            android:layout_gravity="right"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:textSize="12sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:text="Ramesh Pokharel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="2dp"
+                            android:layout_marginLeft="1dp"
+
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:padding="1dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:textSize="12sp"
+                            android:layout_width="match_parent"
+                            android:padding="2dp"
+                            android:text="address :"
+                            android:layout_gravity="right"
+                            android:gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="12sp"
+                            android:padding="2dp"
+                            android:text="Gulmi"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:weightSum="2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="Contact :"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:textSize="12sp"
+                            android:padding="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:text="kanxoramesh@gmail.com"
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:gravity="left"
+                            android:layout_marginTop="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="1dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+
+
+
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
